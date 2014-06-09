@@ -138,43 +138,6 @@ a {
   color: #0F67A2;
 }
 
-.btn-white,
-.btn-white:hover,
-.btn-white:active {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  padding: 25px 60px;
-  color: white;
-  background: none;
-  border: 2px solid #fff;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  outline: none;
-  position: relative;
-  -webkit-transition: all 270ms;
-  -moz-transition: all 270ms;
-  -ms-transition: all 270ms;
-  -o-transition: all 270ms;
-  transition: all 270ms;
-}
-
-.btn-white:hover {
-  background: #fff;
-  color: #107fc9;
-}
-
-.btn-white:focus {
-  color: #fff;
-}
-
-.btn-white:hover.btn-white:focus{
-  color: #107fc9;
-}
-
 .btn-c2a {
   margin: 10px 5px 0;
 }
@@ -280,13 +243,13 @@ a {
   margin: 0 auto;
 }
 .features-icon-1 {
-  background-image: url('../img/features1.png');
+  background-image: url('../img/features1@2x.jpg');
 }
 .features-icon-2 {
-  background-image: url('../img/features2.png');
+  background-image: url('../img/features2@2x.jpg');
 }
 .features-icon-3{
-  background-image: url('../img/features3.png');
+  background-image: url('../img/features3@2x.jpg');
 }
 
 
@@ -392,15 +355,6 @@ a {
 */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),only screen and (min-device-pixel-ratio: 2) {
-  .why-icons {
-    background: url('../img/why-icons@2x.jpg') no-repeat top left;
-    background-size: 590px 150px; 
-  } 
-  .press-icons {
-    background: url('../img/press-icons@2x.jpg') no-repeat top left;
-    background-size: 221px 545px; 
-  } 
-
   .cover-wrapper {
     background-image: url("../img/bg-header@2x.jpg");
   }
@@ -411,9 +365,6 @@ a {
 */
 
 @media only screen and (max-width: 991px) {
-  .what-section .divider-full {
-    margin-top: 3em;
-  }
   .cover-preview {
     width: 100%;
   }
@@ -433,23 +384,12 @@ a {
   .cover-wrapper {
     background-image: url("../img/bg-header-mobile@2x.jpg");
   }
-  .cover-menu-link {
-    margin: 0 10px;
-  }
   .cover-preview {
     margin: 20px auto 0;
   }
 }
 
 @media only screen and (max-width: 640px) {
-  .cover-intro {
-    font-size: 22px;
-  }
-
-  .cover-animated {
-    font-size: 28px;
-  }
-
   .btn, .btn:hover, .btn:active {
     width: 95%;
     padding: 25px 0;
@@ -458,52 +398,31 @@ a {
 }
 
 @media only screen and (min-width: 599px) and (max-width: 767px) {
-  .cover-credit {
-    line-height: 11px;
-    top: 16px;
-    right: 26px;
-  }
-
   .email {
     width: 85%;
   }
-
   .btn-signup, .btn-signup:hover {
     width: 85%;
   }
 }
 
 @media only screen and (max-width: 598px) {
-  .cover-credit {
-    position: inherit;
-    display: block;
-    text-align: center;
-    margin-top: 20px;
-  }
-
   .cover-description {
     margin: 20px auto;
     font-size: 15px;
     line-height: 18px;
   }
-
   .email {
     width: 95%;
     font-size: 15px;
   }
-
   .btn-signup {
     width: 95%;
   }
-
   .btn, .btn:hover, .btn:active {
     width: 95%;
     padding: 25px 0;
     font-size: 14px;
-  }
-  .cover-menu-link {
-    margin: 0;
-    padding: 15px;
   }
   .cover-logo {
     margin: 0;
