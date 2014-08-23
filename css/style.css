@@ -153,6 +153,7 @@ a {
   background-image: url("../img/bg.jpg");
   background-size: cover;
   background-position: center top;
+  background-attachment: fixed;
 }
 .cover-wrapper-inner {
   display: table-cell;
@@ -319,6 +320,7 @@ a {
   background-image: url("../img/bg.jpg");
   background-size: cover;
   background-position: center center;
+  background-attachment: fixed;
 }
 
 .c2a-section .divider {
