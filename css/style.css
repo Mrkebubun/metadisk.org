@@ -150,7 +150,7 @@ a {
   display: table;
   width: 100%;
   background: #107fc9;
-  background-image: url("../img/bg-header.jpg");
+  background-image: url("../img/bg.jpg");
   background-size: cover;
   background-position: center top;
 }
@@ -316,7 +316,7 @@ a {
 .c2a-section {
   padding: 115px 15px 100px;
   background: #107fc9;
-  background-image: url("../img/bg-c2a.jpg");
+  background-image: url("../img/bg.jpg");
   background-size: cover;
   background-position: center center;
 }
