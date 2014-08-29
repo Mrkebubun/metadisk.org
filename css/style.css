@@ -45,10 +45,10 @@ a {
 
 .subtitle {
   font-family: 'Lato', sans-serif;
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 38px;
-  color: #495760;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #777f84;
 }
 
 .title-sm {
@@ -56,6 +56,20 @@ a {
   font-weight: 700;
   text-transform: uppercase;
   line-height: 40px;
+  margin-top: 10px;
+}
+
+.intro {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #495760;
+}
+
+.link {
+  border-bottom: 1px solid #107fc9;
+  padding-bottom: 5px;
 }
 
 .divider {
@@ -107,20 +121,19 @@ a {
  * Buttons
  */
 
-.btn-solid,
-.btn-solid:hover,
-.btn-solid:active,
-.btn-solid:focus {
+.btn-blue,
+.btn-blue:hover,
+.btn-blue:active,
+.btn-blue:focus {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 25px 60px;
-  color: #107fc9;
-  background: #fff;
-  border: 2px solid #fff;
-  border-bottom: 4px solid #DADADA;
+  color: #fff;
+  background: #107fc9;
+  border-bottom: 3px solid #107fc9;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -133,7 +146,7 @@ a {
   -o-transition: all 270ms;
   transition: all 270ms;
 }
-.btn-solid:hover {
+.btn-blue:hover {
   border-bottom: 4px solid #fff;
   color: #0F67A2;
 }
@@ -293,20 +306,21 @@ a {
 }
 
 .features-icons {
-  background-size: 325px 325px;
+  background-size: 378px 235px;
   background-repeat: no-repeat;
-  width: 325px;
-  height: 325px;
+  width: 378px;
+  height: 235px;
   margin: 0 auto;
+  border-radius: 4px;
 }
 .features-icon-1 {
-  background-image: url('../img/features1@2x.jpg');
+  background-image: url('../img/features-1.jpg');
 }
 .features-icon-2 {
-  background-image: url('../img/features2@2x.jpg');
+  background-image: url('../img/features-2.jpg');
 }
 .features-icon-3{
-  background-image: url('../img/features3@2x.jpg');
+  background-image: url('../img/features-3.jpg');
 }
 
 
@@ -394,6 +408,29 @@ a {
   width: 100%;
   height: 100%;
 }
+
+
+
+/*
+ * Retina
+*/
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+  .features-icons {
+    background-size: 378px 235px;
+    background-repeat: no-repeat;
+  }
+  .features-icon-1 {
+    background-image: url('../img/features-1@2x.jpg');
+  }
+  .features-icon-2 {
+    background-image: url('../img/features-2@2x.jpg');
+  }
+  .features-icon-3{
+    background-image: url('../img/features-3@2x.jpg');
+  }
+}
+
 
 
 /*
