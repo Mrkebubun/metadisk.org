@@ -466,8 +466,39 @@ a {
  .input-group {
     width: 100%;
   }
+  .title {
+    font-size: 42px;
+  }
+  .cover {
+    padding: 0;
+  }
   .cover-heading {
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 21px;
+    line-height: 28px;
+    margin-bottom: 30px;
+  }
+  .cover-logo {
+    margin: 5px 0;
+    padding: 0;
+  }
+  .features {
+    padding: 50px 0;
+  }
+  .features-icons {
+    background-size: cover;
+    background-position: center center;
+    width: auto;
+  }
+  .c2a-section {
+    padding: 50px 0;
+  }
+  .c2a-section .title, .c2a-section .subtitle {
+    padding: 0;
+  }
+  .footer {
+    padding: 50px 0;
+  }
+  .footer-links {
+    display: block;
   }
 }
