@@ -72,6 +72,18 @@ a {
   padding-bottom: 5px;
 }
 
+.menu .link {
+  color: #fff;
+  border-bottom: 1px dashed #fff;
+  padding: 10px 0;
+  margin: 20px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.menu .link:hover {
+  border-bottom: 1px solid #fff;
+}
+
 .divider {
   width: 274px;
   height: 10px;
@@ -451,6 +463,17 @@ a {
   .cover-heading {
     font-size: 34px;
     line-height: 42px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .cover-container {
+    margin: 20px auto 0
+  }
+  .mobile-link {
+    width: 140px;
+    display: inline-block !important;
+    margin: 0 20px 40px !important;
   }
 }
 
